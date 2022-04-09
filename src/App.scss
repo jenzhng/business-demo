@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  background-color: #FFB6C1;
+  
+}
+
+
+.desktop{
+font-size: 0;
+  align-items: center;
+
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+footer li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.icon {
+	top: 300;
+}
+
+#contact {
+	  box-sizing: border-box;
+  
+    padding: 0vw 0vw 0vw 0vw;
+    border: 1px ;
+	
+	 min-width: 100%;
+    height: 45vh;
+    /* border: 1px solid red; */
+    margin: 0;
+    position:relative; 
+}
+
+.submitBtn {
+    
+}
+
+
+
+footer {
+	 position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:130px;
+    background-color :black;
+	color: white;
+}
+
+
+
+.navBar {
+  position: relative;
+  height: 100%;
+  list-style: none;
+
+}
+
+
+.navBar button {
+  background: transparent;
+  border: none;
+}
+
+
+.navBar button {
+  position: relative;
+  left: 160px;
+  top: -90px;
+  z-index: 10;
+  cursor: pointer;
+
+}
+
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background: darkcyan;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 80vh;
+  overflow: hidden;
+  max-height: 390px;
+  z-index: 9;
+
+}
+
+.menuNav.showMenu {
+  height: 100%;
+
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #3fffd2;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+
+}
+
+a:hover {
+   background-color: yellow;
+}
+
+.menuNav li:first-child {
+  margin-top: 7rem;
+
+}
+
+.browseBtn {
+	height: 50px;
+	width: 200px;
+	border-radius: 30px;
+	font-size: 24px;
+	background-color: green;
+	color: white;
+}
+
+p.normal {
+  font-weight: normal;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+social-links {
+	margin-top: 50px;
+	font-size: 22px;
+}
