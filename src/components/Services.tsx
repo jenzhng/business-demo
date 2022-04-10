@@ -11,8 +11,9 @@ export const Services = () => {
     
 		<div className="services-sec" id="services">
 			<h1> Services </h1>
+			
 			<img
-                    height="150px"
+                    height="200px"
                     src={dtgpic}
                     alt="Avatar placeholder"
                   />
@@ -22,7 +23,7 @@ export const Services = () => {
 				<br></br>
 
 			<img
-                    height="250px"
+                    height="200px"
                     src={screenpic}
                     alt="Avatar placeholder"
                   />	  
@@ -32,7 +33,7 @@ export const Services = () => {
 			
 			
 			<img
-                    height="250px"
+                    height="200px"
                     src={embroidery}
                     alt="Avatar placeholder"
                   />	

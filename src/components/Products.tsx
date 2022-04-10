@@ -12,7 +12,7 @@ export const Products = () => {
 		<div className="products-sec" id="products">
 			<h1> Products </h1>
 			<img
-                    height="250px"
+                    height="200px"
                     src={tshirt}
                     alt="Stock t-shirt"
                   />
@@ -22,7 +22,7 @@ export const Products = () => {
 				<br></br>
 
 			<img
-                    height="250px"
+                    height="200px"
                     src={drawstring}
                     alt="Stock pullover"
                   />	  
@@ -32,7 +32,7 @@ export const Products = () => {
 			
 			
 			<img
-                    height="250px"
+                    height="200px"
                     src={bcaps}
                     alt="Stock baseball caps"
                   />	
