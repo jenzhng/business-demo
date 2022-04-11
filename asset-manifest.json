@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jenzhng.github.io/business-demo/static/css/main.1b02ba7b.css",
-    "main.js": "/jenzhng.github.io/business-demo/static/js/main.0b847cef.js",
-    "static/js/787.a08793f1.chunk.js": "/jenzhng.github.io/business-demo/static/js/787.a08793f1.chunk.js",
-    "index.html": "/jenzhng.github.io/business-demo/index.html",
-    "main.1b02ba7b.css.map": "/jenzhng.github.io/business-demo/static/css/main.1b02ba7b.css.map",
-    "main.0b847cef.js.map": "/jenzhng.github.io/business-demo/static/js/main.0b847cef.js.map",
-    "787.a08793f1.chunk.js.map": "/jenzhng.github.io/business-demo/static/js/787.a08793f1.chunk.js.map"
+    "main.css": "/static/css/main.1b02ba7b.css",
+    "main.js": "/static/js/main.cdd073be.js",
+    "static/js/787.a08793f1.chunk.js": "/static/js/787.a08793f1.chunk.js",
+    "index.html": "/index.html",
+    "main.1b02ba7b.css.map": "/static/css/main.1b02ba7b.css.map",
+    "main.cdd073be.js.map": "/static/js/main.cdd073be.js.map",
+    "787.a08793f1.chunk.js.map": "/static/js/787.a08793f1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b02ba7b.css",
-    "static/js/main.0b847cef.js"
+    "static/js/main.cdd073be.js"
   ]
 }
