@@ -20,11 +20,7 @@ export const HeaderDesktop = () => {
                     
                     className="logo"
                   >
-				  <img
-                    height="150px"
-                    src={logo}
-                    alt="logo"
-                  />
+				 
 \                  </li>
               </li>
           </nav>
@@ -39,7 +35,11 @@ export const HeaderDesktop = () => {
              
                 className="icon"
               >
-			  
+			   <img
+                    height="150px"
+                    src={logo}
+                    alt="logo"
+                  />
 			  
               </li>
               <li

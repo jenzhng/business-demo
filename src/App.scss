@@ -1,3 +1,6 @@
+@import "./scss/bootstrap.min.scss";
+
+
 .App {
   text-align: center;
   background-color: #FFB6C1;
@@ -8,7 +11,7 @@
 .desktop{
 font-size: 0;
   align-items: center;
-
+	
 }
 
 
@@ -30,6 +33,9 @@ font-size: 0;
 }
 
 
+
+
+
 header li {
     list-style: none;
     display: inline-block;
@@ -46,6 +52,19 @@ footer li {
 	top: 300;
 }
 
+.collection {
+display: flex;
+justify-content: space-evenly;
+  flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 600px) {
+  .collection {
+    flex-direction: column
+  }
+}
+
+
 #contact {
 	  box-sizing: border-box;
   
@@ -53,7 +72,7 @@ footer li {
     border: 1px ;
 	
 	 min-width: 100%;
-    height: 45vh;
+    height: 60vh;
     /* border: 1px solid red; */
     margin: 0;
     position:relative; 
@@ -123,7 +142,7 @@ footer {
 
 a {
   display: block;
-  padding: 10px 40px;
+  padding: 5px 40px;
   text-decoration: none;
   color: #3fffd2;
   text-transform: uppercase;
@@ -146,7 +165,7 @@ a:hover {
 	height: 50px;
 	width: 200px;
 	border-radius: 30px;
-	font-size: 24px;
+	font-size: 22px;
 	background-color: green;
 	color: white;
 }
@@ -162,6 +181,17 @@ p.thick {
 social-links {
 	margin-top: 50px;
 	font-size: 22px;
-	color: white;
 }
 
+.icon {
+	
+}
+
+nav li {
+padding-left:0px;
+  padding-right:10px;
+}
+
+.desktop-full {
+
+}

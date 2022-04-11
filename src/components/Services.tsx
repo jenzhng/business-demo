@@ -8,40 +8,44 @@ export const Services = () => {
 	var screenpic = "screen-printing.png"
 	var embroidery = "croix-lavender.png"
   return (
-    
-		<div className="services-sec" id="services">
-			<h1> Services </h1>
+  
+  <>
+    <h1 className="font-weight-bold"> Services </h1>
+		<div className="collection" id="services">
+		
 			
+			<div>
 			<img
-                    height="200px"
+                    height="150px"
                     src={dtgpic}
-                    alt="Avatar placeholder"
+                    alt="direct-to-garment"
                   />
 				  <p className="thick"> Digital Printing </p>
 
-				  <br></br>
-				<br></br>
+			</div>
+			<div>
 
 			<img
-                    height="200px"
+                    height="150px"
                     src={screenpic}
-                    alt="Avatar placeholder"
+                    alt="screenprinting"
                   />	  
 				  
 			<p className="thick"  > Screen Printing </p>
 			
-			
-			
+			</div>
+
+			<div>
 			<img
-                    height="200px"
+                    height="150px"
                     src={embroidery}
-                    alt="Avatar placeholder"
+                    alt="embroidery"
                   />	
 				  
 				  <p className="thick"> Embroidery </p>
-
+			</div>
 		</div>
-  
+  </>
   );
 };
 

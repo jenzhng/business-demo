@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-
-
+import "../scss/buttons.scss";
+import Button from 'react-bootstrap/Button';
 
 export const Products = () => {
 	
@@ -8,40 +8,50 @@ export const Products = () => {
 	var drawstring = "drawstring.png"
 	var bcaps = "blank-caps.png"
   return (
-    
-		<div className="products-sec" id="products">
-			<h1> Products </h1>
+    <>
+	<h1 className="font-weight-bold"> Products </h1>
+		<div className="collection" id="products">
+			
+			<div>
 			<img
-                    height="200px"
+                    height="150px"
                     src={tshirt}
                     alt="Stock t-shirt"
                   />
 				  <p className="thick"> Shirts </p>
-
-				  <br></br>
-				<br></br>
+			</div>
+				  
+			<div>
 
 			<img
-                    height="200px"
+                    height="150px"
                     src={drawstring}
                     alt="Stock pullover"
                   />	  
 				  
 			<p className="thick"> Sweatshirts </p>
 			
-			
-			
+			</div>
+			<div>
+
 			<img
-                    height="200px"
+                    height="150px"
                     src={bcaps}
                     alt="Stock baseball caps"
                   />	
 				  
 				  <p className="thick"> Hats </p>
-				  
-				  <button type = "button"  className = "browseBtn"> Browse Products</button>
+			</div>
+	
 
-		</div>
+				
+						</div>
+  
+<button type="button" className="btn btn-primary btn-lg btn-radius">Browse Products</button>
+
+  <br></br>
+				<br></br>
+		</>
   
   );
 };

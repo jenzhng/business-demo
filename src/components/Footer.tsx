@@ -23,7 +23,7 @@ export const Footer = () => {
 		  </li>
 		</div>
 		   <div className="copyright">
-			Copyright 2022
+			Copyright 2022 PrintMe
 		   </div>
 	 </footer>
   

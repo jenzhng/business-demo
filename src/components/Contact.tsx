@@ -7,8 +7,9 @@ export const Contact = () => {
   
   <div className="form-name" id="contact">
   
-  <h1> Contact </h1>
-     <form>
+  <h1 className="font-weight-bold"> Contact </h1>
+<br></br>
+	<form>
 		 <div className = "field1">
             
             <input placeholder="Name"/>     
@@ -25,10 +26,12 @@ export const Contact = () => {
 
             </div>
 
-            <button type = "submit" id= "submitBtn" className = "submitBtn"> submit</button>
-		
+            
+		<button type="submit" id= "submitBtn"className="btn btn-primary btn-lg btn-radius">Submit</button>
+
 	 </form>
 	 </div>
   );
 };
-
+/* 
+<button type = "submit" id= "submitBtn" className = "submitBtn"> submit</button> */
