@@ -1,7 +1,7 @@
 # Sample Business Landing Page
 
 ## Specification
-Frontend: React, Hooks, Typescript, ContextAPI
+Frontend: React, Hooks, Typescript, Bootstrap
 
 ### `npm start`
 
